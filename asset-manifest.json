@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/CounterReact/static/css/main.59d70f3d.chunk.css",
-    "main.js": "/CounterReact/static/js/main.db02b29b.chunk.js",
-    "main.js.map": "/CounterReact/static/js/main.db02b29b.chunk.js.map",
+    "main.js": "/CounterReact/static/js/main.3d65b031.chunk.js",
+    "main.js.map": "/CounterReact/static/js/main.3d65b031.chunk.js.map",
     "runtime-main.js": "/CounterReact/static/js/runtime-main.8320c4c3.js",
     "runtime-main.js.map": "/CounterReact/static/js/runtime-main.8320c4c3.js.map",
     "static/js/2.e0c1b560.chunk.js": "/CounterReact/static/js/2.e0c1b560.chunk.js",
     "static/js/2.e0c1b560.chunk.js.map": "/CounterReact/static/js/2.e0c1b560.chunk.js.map",
     "index.html": "/CounterReact/index.html",
-    "precache-manifest.42abfe51de41db809d7553f46004fd35.js": "/CounterReact/precache-manifest.42abfe51de41db809d7553f46004fd35.js",
+    "precache-manifest.5ebc309bf72a30eb8e2ba9b3d75231d0.js": "/CounterReact/precache-manifest.5ebc309bf72a30eb8e2ba9b3d75231d0.js",
     "service-worker.js": "/CounterReact/service-worker.js",
     "static/css/main.59d70f3d.chunk.css.map": "/CounterReact/static/css/main.59d70f3d.chunk.css.map",
     "static/js/2.e0c1b560.chunk.js.LICENSE.txt": "/CounterReact/static/js/2.e0c1b560.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.8320c4c3.js",
     "static/js/2.e0c1b560.chunk.js",
     "static/css/main.59d70f3d.chunk.css",
-    "static/js/main.db02b29b.chunk.js"
+    "static/js/main.3d65b031.chunk.js"
   ]
 }
