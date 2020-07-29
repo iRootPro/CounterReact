@@ -29,14 +29,14 @@ export function SetValue(props: PropsType) {
             <div>
                 <span className={'label-input'}>Max Value</span>
                 <input className={props.error ? 'input-error': ''}
-                    type="text"
+                    type="number"
                     value={props.inputNewMaxValue}
                     onChange={onChangeMaxValue}
                 /></div>
             <div>
                 <span className={'label-input'}>Min Value</span>
                 <input className={props.error ? 'input-error': ''}
-                    type="text"
+                    type="number"
                     value={props.inputNewMinValue}
                 onChange={onChangeMinValue}
                 />

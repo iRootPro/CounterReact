@@ -5,6 +5,22 @@ import {Button} from "./components/Button";
 import {SetupCounter} from "./components/Setup/SetupCounter";
 
 function App() {
+    function saveState<T>(state: T) {
+        const stateAsString = JSON.stringify(state);
+        localStorage.setItem('state', stateAsString)
+    }
+
+    saveState({startValue: 0,
+        maxValue: 0,
+        currentValue: 0,
+        isChange: false,
+        isError: false})
+
+    function restoreState<T>(key: string, defaultState: T) {
+        const stateAsString = localStorage.getItem(key);
+        if (stateAsString !== null) defaultState = JSON.parse(stateAsString) as T;
+        return defaultState;
+    }
 
     let [value, setValue] = useState({
         startValue: 0,
@@ -13,6 +29,7 @@ function App() {
         isChange: false,
         isError: false
     })
+
 
     const incButton = () => {
         setValue({...value, currentValue: value.currentValue + 1})
