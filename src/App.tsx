@@ -10,26 +10,21 @@ function App() {
         localStorage.setItem('state', stateAsString)
     }
 
-    saveState({startValue: 0,
-        maxValue: 0,
-        currentValue: 0,
-        isChange: false,
-        isError: false})
-
-    function restoreState<T>(key: string, defaultState: T) {
-        const stateAsString = localStorage.getItem(key);
-        if (stateAsString !== null) defaultState = JSON.parse(stateAsString) as T;
-        return defaultState;
-    }
-
-    let [value, setValue] = useState({
+    let defaultState = {
         startValue: 0,
         maxValue: 0,
         currentValue: 0,
         isChange: false,
         isError: false
+    }
+
+
+    let [value, setValue] = useState(()=> {
+        const savedState = localStorage.getItem('state')
+        return savedState !== null ? JSON.parse(savedState) : defaultState
     })
 
+    saveState(value)
 
     const incButton = () => {
         setValue({...value, currentValue: value.currentValue + 1})

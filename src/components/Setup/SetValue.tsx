@@ -11,7 +11,6 @@ type PropsType = {
 
 
 export function SetValue(props: PropsType) {
-
     const onChangeMaxValue = (e: ChangeEvent<HTMLInputElement>): void => {
         if (isNaN(+e.currentTarget.value)) return
         props.onChangeMaxValue(+e.currentTarget.value);
