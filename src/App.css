@@ -1,0 +1,90 @@
+.wrapper {
+
+}
+
+.containerSetup, .containerManager  {
+  width: 300px;
+  height: 315px;
+  border: aqua 1px solid;
+  background-color: black;
+  padding: 5px;
+  margin: 10px;
+  float: right;
+}
+
+.containerSetup {
+  margin-right: 400px;
+}
+
+.output {
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color: aqua;
+  border-radius: 4px;
+  text-align: center;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200px;
+}
+.setup {
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color: aqua;
+  border-radius: 4px;
+  text-align: center;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+}
+
+.label-input {
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+input {
+  width: 50px;
+  height: 20px;
+}
+
+.input-error {
+  width: 50px;
+  height: 20px;
+  border-color: red;
+  background-color: red;
+}
+
+.error-data {
+  color: red;
+  font-weight: 700;
+}
+
+.count {
+  font-weight: 700;
+  font-size: 100px;
+  vertical-align: middle;
+}
+
+.count-red {
+  font-size: 100px;
+  vertical-align: middle;
+  color: red;
+}
+
+.manage {
+  text-align: center;
+  background-color: aqua;
+  height: 80px;
+  border-radius: 4px;
+  padding-top: 20px;
+}
+
+.btn {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+
+
